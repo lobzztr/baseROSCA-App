@@ -653,13 +653,6 @@ export const contractABI = [
   },
   {
     "inputs": [],
-    "name": "lockedFundsRugpull",
-    "outputs": [],
-    "stateMutability": "nonpayable",
-    "type": "function"
-  },
-  {
-    "inputs": [],
     "name": "maxContributionAmount",
     "outputs": [
       {

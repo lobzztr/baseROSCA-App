@@ -39,7 +39,7 @@ export const Admin = () => {
         <div className="flex flex-col items-center justify-center p-5">
 
             <p className="text-black-500 font-comfortaa">
-                Security Budget: ${ !isLoadingInsurance && insurance !== undefined ? (
+                Security Budget: ₹{ !isLoadingInsurance && insurance !== undefined ? (
                     toEther(insurance).toString()
                 ) : (
                     toEther(BigInt(0)).toString()
@@ -75,7 +75,7 @@ export const Admin = () => {
                         prepareContractCall({
                             contract: contract,
                             method: "startROSCAInstance",
-                            params: [BigInt(3), BigInt(100), BigInt(100), BigInt(300)]
+                            params: [BigInt(6), BigInt(1000), BigInt(100), BigInt(604800)]
                         })
                     )}
                 >Start ROSCA</TransactionButton>
@@ -87,8 +87,8 @@ export const Admin = () => {
                             contract: contract,
                             method: "vettUser",
                             // params: ["0xaB6B7560f46F22DFa3e1BaAFa2c8918223C88Ab6", "wolf"]
-                            // params: ["0x4fABc1CCd1e0Df96c5258394069fd333470f2bE0", "testy"]
-                            params: ["0xfaA8A82153cc79eAb5b74EF3583DD54822189b2A", "viber"]
+                            params: ["0x4fABc1CCd1e0Df96c5258394069fd333470f2bE0", "testy"]
+                            // params: ["0xfaA8A82153cc79eAb5b74EF3583DD54822189b2A", "viber"]
                             
                         })
                     )}
