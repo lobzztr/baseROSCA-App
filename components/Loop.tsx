@@ -140,7 +140,7 @@ export const Loop = () => {
 
         const formatTime = (seconds: number): string => {
             const date = new Date(seconds * 1000); // Convert seconds to milliseconds
-            return date.toLocaleTimeString(); // Extract HH:MM:SS part from ISO string
+            return date.toLocaleString(); // Extract HH:MM:SS part from ISO string
           };
 
         return (
