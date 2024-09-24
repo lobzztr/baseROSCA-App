@@ -87,7 +87,7 @@ export const Admin = () => {
                             contract: contract,
                             method: "vettUser",
                             // params: ["0xaB6B7560f46F22DFa3e1BaAFa2c8918223C88Ab6", "wolf"]
-                            params: ["0x4fABc1CCd1e0Df96c5258394069fd333470f2bE0", "testy"]
+                            params: ["0xE3D7c7438C4107F4040C2f63550e6BE0cB71a73c", "hashif"]
                             // params: ["0xfaA8A82153cc79eAb5b74EF3583DD54822189b2A", "viber"]
                             
                         })
@@ -125,7 +125,7 @@ export const Admin = () => {
                     )}
                 >Prize Money</TransactionButton>
                 <TransactionButton
-                    style={{ flex: 1, backgroundColor: "blue", color: "black", border: "2px solid black", borderRadius: "8px", fontFamily: "comfortaa" }}
+                    style={{ flex: 1, backgroundColor: "blue", color: "white", border: "2px solid black", borderRadius: "8px", fontFamily: "comfortaa" }}
                     transaction={() => (
                         prepareContractCall({
                             contract: contract,
