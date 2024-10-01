@@ -78,7 +78,7 @@ export const Enroll = () => {
                     Pot auction per round – {potStr} IN₹ ({slotsStr} members x {instalmentAmountStr} IN₹)
                 </p>
                 <p>Duration – {slotsStr} weeks! </p>
-                <p style={{ marginTop: "20px", color: "orange" }}>Protocol fees - 1%</p>
+                <p style={{ marginTop: "20px", color: "orange" }}>Protocol fees - 10 IN₹</p>
                 <p style={{ marginTop: "20px" }}> -- -- --</p>
             </div>
         );
